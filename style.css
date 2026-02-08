@@ -1,40 +1,14 @@
-/* Responsive design styles */
-@media (max-width: 768px) {
-    body {
-        font-size: 14px;
-    }
-    .card {
-        flex-direction: column;
-    }
+/* Original styles for usersort prototype - Reverted to commit a13dcee */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
 }
 
-/* Card layout for users */
-.card {
-    display: flex;
-    flex-direction: row;
-    padding: 20px;
-    margin: 10px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
+h1 {
+    color: #333;
 }
 
-.card img {
-    max-width: 100px;
-    border-radius: 50%;
-}
-
-.card-info {
-    margin-left: 15px;
-}
-
-/* Styling for all controls */
-button, input, select {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-}
-
-button:hover, input:hover, select:hover {
-    background-color: #f0f0f0;
-}
+/* Additional style rules should be here */
